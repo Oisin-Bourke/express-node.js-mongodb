@@ -1,0 +1,34 @@
+<blockquote>Welcome to the user feeds:</blockquote>
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="card col-md-6">
+            <br>
+            <textarea class="form-control" rows="5" cols="50" id="inputPost" placeholder="Got something to say?" maxlength="280"></textarea>
+            <label id="charRemaining" for="inputPost">280</label>
+            <div class="row">
+                <div class="col-md-3">
+                    <!--Camera-->
+                    <i class="fa fa-camera-retro fa-2x"></i>
+                </div>
+                <div class="col-md-3">
+                    <!--Video-->
+                    <i class="fas fa-video fa-2x"></i>
+                </div>
+                <div class="col-md-3">
+                    <!--Bar Chart-->
+                    <i class="fa fa-chart-bar fa-2x"></i>
+                </div>
+                <div class="col-md-3">
+                    <!-- Button -->
+                    <button type="text" id="postBtn" class="btn btn-primary btn-lg">Post</button>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="row">
+            <div class="feedPostsStyle col-xs-12 panel" id="feedPosts"></div> <!-- dynamically generated html here -->
+        </div>
+    </div>
+</div>
+
+<script src="/javascripts/feed.js"></script>

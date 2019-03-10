@@ -1,0 +1,79 @@
+/*================ ELEMENTS =================*/
+
+body {
+    padding: 50px;
+}
+
+a {
+    color: #00B7FF;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;/* every even table row is grey*/
+}
+
+th, td {
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+/*================ .CLASSES =================*/
+
+.parent-container{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.index-header{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.reviews-table td{
+    padding: 30px;
+}
+
+.governance th {
+    text-align: center;
+}
+
+.governance tr td {
+    text-align: center;
+}
+
+/*================ #IDs =================*/
+
+/* Assignment 2: Targeting the dynamic output generated from javascripts/comment-form.js ============*/
+
+#output-client-side {
+    white-space: pre-wrap; /*This ensures that the '\n' tags in javascript/comment_form.js render on to new lines*/
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    padding: 20px;
+}
+
+#output-client-side button {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(28, 184, 65);
+}
+
+.feedPostsStyle button {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+    margin: 10px;
+}

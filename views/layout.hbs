@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+      <link rel="stylesheet" href="/stylesheets/style.css"/>
+
+      <!--Add JQuery-->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+      <!-- bootsrap CDNJS-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!--my testing javascript file-->
+      <!--<script src="/javascripts/hello.js"> </script>-->
+
+      <!--test JQuery-->
+      <script src='/javascripts/examples.js'></script>
+
+      <!--this is the javascript file that controls the comment form-->
+      <script src="/javascripts/comment_form.js"> </script>
+
+      <!--this is the javascript file that controls the feed ==> this was not executing and is now in feed.hbs-->
+      <!--<script src="/javascripts/feed.js"></script>-->
+
+      <!--Adding google Roboto Slab font-->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  </head>
+  <body>
+  <div class="container-fluid parent-container">
+      <header class = "row" >
+          <div class="title text-center jumbotron">
+              <h1>{{title}}</h1>
+              <p>Welcome to the {{title}}</p>
+              <p>Review and social hub for true craft beer lovers!</p>
+          </div>
+      </header>
+    <!-- ================Navigation bar =============================-->
+      <ul class="nav nav-pills">
+          <li role="presentation"><a href="/">Home</a></li>
+          <li role="presentation"><a href="feed">Feed</a></li>
+          <li role="presentation"><a href="aboutUs">About Us</a></li>
+      </ul>
+    {{{body}}}
+  </div>
+  </body>
+</html>

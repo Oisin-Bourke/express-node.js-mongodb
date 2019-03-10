@@ -1,0 +1,161 @@
+<!-- ROW ================================-->
+<section class= "row" >
+    <h2>Craft Brew Club members can:</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-grain" aria-hidden="true"></span>Rate and review craft beers</li>
+        <li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-grain" aria-hidden="true"></span>Learn about upcoming beer releases and craft events</li>
+        <li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-grain" aria-hidden="true"></span>Connect with other craft beer lovers</li>
+        <li class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-grain" aria-hidden="true"></span>Sign up for membership</li>
+    </ul>
+</section>
+
+<!-- ROW ================================-->
+<main class= "row" >
+    <section class = "dates-table col-md-6 panel">
+        <h2>Latest News and Updates:</h2>
+        <table class="table">
+            <tr>
+                <th>Date</th>
+                <th>News and Updates</th>
+                <th>Links</th>
+            </tr>
+            <tr>
+                <td>24 September 2018</td>
+                <td>Irish Craft Beer Festival coming on 28th and 29th September</td>
+                <td><a href="http://www.irishcraftbeerfestival.ie/" target="_blank" class="list-group-item">Click to find out more!</a></td>
+            </tr>
+            <tr>
+                <td>22 September 2018</td>
+                <td>Kinnegar Brewery release new IPA</td>
+                <td><a href="https://kinnegarbrewing.ie/" target="_blank" class="list-group-item">Click to find out more!</a></td>
+            </tr>
+            <tr>
+                <td>18 September 2018</td>
+                <td>Craft Brew Club social at the rowing club</td>
+                <td><a href="https://www.facebook.com/" target="_blank" class="list-group-item">Click to find out more!</a></td>
+            </tr>
+            <tr>
+                <td>16 September 2018</td>
+                <td>Dungarvan Brewery release new special Comeragh Challenger brew</td>
+                <td><a href="https://dungarvanbrewingcompany.com/" target="_blank" class="list-group-item">Click to find out more!</a></td>
+            </tr>
+            <tr>
+                <td>10 September 2018</td>
+                <td>New laws regulating microbrewery sales come into force</td>
+                <td><a href="https://www.irishtimes.com/news/politics/law-to-allow-breweries-sell-alcohol-produced-on-premises-to-touring-visitors-1.3167760" target="_blank" class="list-group-item">Click to find out more!</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class = "reviews-table col-md-6 panel">
+        <h2>Latest Beer Ratings:</h2>
+        <table class="table">
+            <tr>
+                <th>Member Name</th>
+                <th>Beer Tested</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Alex</td>
+                <td>Galway House Plain Porter</td>
+                <td><span class="badge">3/5</span></td>
+            </tr>
+            <tr>
+                <td>Jason</td>
+                <td>Little Man Brewery IPA</td>
+                <td><span class="badge">4/5</span></td>
+            </tr>
+            <tr>
+                <td>Lillian</td>
+                <td>West Local Dry Cider</td>
+                <td><span class="badge">3/5</span></td>
+            </tr>
+            <tr>
+                <td>Kate</td>
+                <td>Dungarvan Brewery Dry Porter</td>
+                <td><span class="badge">4/5</span></td>
+            </tr>
+            <tr>
+                <td>Enda</td>
+                <td>Galway Hooker Stout</td>
+                <td><span class="badge">2/5</span></td>
+            </tr>
+            <tr>
+                <td>Oisin</td>
+                <td>Heineken N/A</td>
+                <td><span class="badge">1/5</span></td>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>Smithwicks Pale Ale</td>
+                <td><span class="badge">2/5</span></td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<!-- ROW ======== *** ASSIGNMENT 2 *** ================================-->
+<section class="row comment-form panel">
+    <h2> Comments Form: </h2>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input id="name-input"  type="text" class="form-control" placeholder="Enter @username" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <textarea id="comment-input" class="form-control" rows="5"  placeholder="Enter your comments..."></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                    <button class="btn btn-primary btn-lg" onclick="processForm();return false;"><!--return false stops method returning and sending browser to top of the screen-->
+                    <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                    Post
+                    </button>
+            </div>
+        </div>
+    </form>
+
+    <div id="output-client-side"></div> <!-- dynamic element targeted by ====> javascripts/comment-form.js-->
+
+</section>
+
+<!-- ROW ================================-->
+<section class = "row">
+    <h2>Club Governance:</h2>
+    <table class="table governance">
+        <tr>
+            <th>Chairperson</th>
+            <th>Secretary</th>
+            <th>Treasurer</th>
+        </tr>
+        <tr>
+            <td><img class="circle" src="images/Calvin.gif" alt="Calvin" height="160" width="160"></td>
+            <td><img class="circle" src="images/Hobbes.jpg" alt="Hobbes" height="160" width="160"></td>
+            <td><img class="circle" src="images/SusieDerkins.jpg" alt="Susie" height="160" width="160"></td>
+        </tr>
+        <tr>
+            <th>Calvin</th>
+            <th>Hobbes</th>
+            <th>Susie Derkins</th>
+        </tr>
+        <tr>
+            <td colspan="3">To find out more about our club governance <a href="https://en.wikipedia.org/wiki/Calvin_and_Hobbes" target="_blank" class="btn btn-primary btn-lg">Click</a></td>
+        </tr>
+    </table>
+</section>
+
+<!-- ROW ===========TESTING WITH REACT=====================-->
+<footer class = "row">
+    <!--<div id="like_button_container"></div>-->
+</footer>
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Load our React component. -->
+<script src="javascripts/like_button.js"></script>
